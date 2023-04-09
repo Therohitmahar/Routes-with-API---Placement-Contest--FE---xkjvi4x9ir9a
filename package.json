@@ -12,9 +12,12 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "and": "^0.0.3",
+    "npm": "^9.6.4",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-router-dom": "^6.3.0"
+    "react-router-dom": "^6.3.0",
+    "start": "^5.1.0"
   },
   "jest": {
     "moduleNameMapper": {
