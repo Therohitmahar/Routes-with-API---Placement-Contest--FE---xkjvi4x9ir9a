@@ -8,6 +8,7 @@ function Top() {
       .then((res) => res.json())
       .then((data) => setCryptoArr(data));
   }, []);
+  console.log(cryptoArr);
   return (
     <div className="top-container">
       <h1>Top 10 Global Crypto Coins</h1>
